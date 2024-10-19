@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3 - Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg custom-nav">
+        <div class="container">
+            <a class="navbar-brand text-white" href="/index.html">Index</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pagina1.html">Página 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pagina2.html">Página 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/pagina3.html">Página 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido de la página -->
+    <div class="container my-4">
+        <h1 class="text-center">Bootstrap 5: Un Framework Moderno para la Web</h1>
+        
+        <p class="pagina-3-content">
+            Bootstrap 5 es la última versión del framework más popular para crear sitios web modernos y adaptativos. 
+            Su principal característica es su capacidad para permitir el diseño responsive, lo que significa que los sitios web se ajustan automáticamente a cualquier tamaño de pantalla.
+        </p>
+        
+        <p class="pagina-3-content">
+            La mayor mejora de Bootstrap 5 es la eliminación de la dependencia de jQuery, lo que lo hace más ligero y rápido. Esto permite un mejor rendimiento en la web y simplifica el uso de componentes.
+        </p>
+        
+        <p class="pagina-3-content">
+            Bootstrap 5 se basa completamente en Flexbox y CSS Grid, dos tecnologías modernas que permiten una mayor flexibilidad en el diseño. Con estos sistemas, es fácil organizar y alinear el contenido en cualquier resolución de pantalla.
+        </p>
+        
+        <p class="pagina-3-content">
+            Otra característica importante de Bootstrap 5 es su enfoque en el diseño "mobile-first". Esto garantiza que las aplicaciones y sitios web sean optimizados primero para dispositivos móviles, con una adaptación progresiva a dispositivos más grandes.
+        </p>
+        
+        <p class="pagina-3-content">
+            Los nuevos componentes como los botones offcanvas y las mejoras en el sistema de formularios facilitan la creación de interfaces de usuario intuitivas y fáciles de navegar. Bootstrap 5 también proporciona nuevas clases de utilidad para personalizar elementos rápidamente.
+        </p>
+        
+        <p class="pagina-3-content">
+            Con la inclusión de iconos Bootstrap, ahora es posible utilizar una amplia gama de íconos sin tener que depender de bibliotecas externas. Estos iconos son completamente personalizables y pueden integrarse fácilmente en los proyectos.
+        </p>
+
+        <!-- Imágenes -->
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="/img/bos1.jpg" class="img-fluid rounded pagina-3-image" alt="Sistema de Grid en Bootstrap 5">
+                <p class="text-center">Sistema de Grid en Bootstrap 5</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="/img/bos2.jpg" class="img-fluid rounded pagina-3-image" alt="Flexbox en Bootstrap 5">
+                <p class="text-center">Flexbox para diseño adaptable</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="/img/bos3.jpg" class="img-fluid rounded pagina-3-image" alt="Nuevos Componentes en Bootstrap 5">
+                <p class="text-center">Nuevos Componentes en Bootstrap 5</p>
+            </div>
+        </div>
+
+        <!-- Acordeón -->
+        <div class="accordion my-4" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Qué es Bootstrap 5?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Bootstrap 5 es un framework CSS que facilita el diseño de interfaces web. Con su sistema de rejilla y componentes reutilizables, es la herramienta ideal para crear sitios responsive de manera rápida y eficiente.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Ventajas de Bootstrap 5
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Una de las mayores ventajas de Bootstrap 5 es su compatibilidad con las tecnologías web modernas. Con Flexbox y CSS Grid, permite un diseño adaptable y flexible. Además, la eliminación de jQuery hace que las páginas carguen más rápido.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Componente de Alertas -->
+        <div class="alert alert-info" role="alert">
+            ¿Sabías que Bootstrap 5 es totalmente compatible con Sass? Esto te permite personalizar fácilmente cualquier parte del framework para que se ajuste a las necesidades de tu proyecto.
+        </div>
+
+        <div class="text-center my-4">
+            <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">
+                <button type="button" class="btn btn-primary">Aprender más</button>
+            </a>
+            <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">
+                <button type="button" class="btn btn-secondary">Documentación</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024. Todos los derechos reservados.</p>
+            <p>
+                <a href="#">Aviso Legal</a> | 
+                <a href="#">Política de Privacidad</a> | 
+                <a href="#">Contacto</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

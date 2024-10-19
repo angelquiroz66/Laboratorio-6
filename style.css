@@ -1,0 +1,218 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #405870, #252525);
+    color: #f0f0f0; 
+    line-height: 1.6;
+}
+
+.hero-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    color: #f0f0f0; 
+}
+
+/* Navegación */
+.custom-nav {
+    background: #6994af; /* Fondo */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Marca */
+    font-size: 1.5rem; /* Tamaño */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px; /* Espaciado */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Texto */
+    font-weight: bold; /* Peso */
+    transition: color 0.3s ease; /* Transición */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0afcfc; /* Hover */
+    text-decoration: underline; /* Subrayado */
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* Borde */
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+
+.image-container img {
+    max-width: 100%;  
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); 
+    transition: transform 0.3s ease; 
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Zoom */
+}
+
+/* Pie de página */
+footer {
+    background-color: #23272a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+footer a:hover {
+    color: #00bcd4; /* Hover */
+}
+
+/* Página 1 */
+.pagina-1-image {
+    border: 2px solid #ffffff;
+    border-radius: 15px; 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); 
+    width: 500px; 
+    height: 200px; 
+    object-fit: cover; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.image-container {
+    text-align: center; 
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+
+.image-container p {
+    margin-top: 10px; 
+}
+
+.card {
+    background-color: #2c3e50; 
+    color: white;
+}
+
+/* Página 2 */
+.pagina-2-title {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Contenido */
+.pagina-2-content {
+    font-size: 1.2rem; /* Tamaño */
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+    color: #d9d9d9;
+    text-align: justify;
+}
+
+/* Consistencia */
+.pagina-3-content,
+.pagina-1-content {
+    font-size: 1.2rem; /* Tamaño */
+    font-family: 'Roboto', sans-serif;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+/* Página 3 */
+.pagina-3-title {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #f0f0f0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.pagina-3-content {
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.pagina-3-content p {
+    margin-bottom: 20px;
+}
+
+/* Imágenes */
+.pagina-3-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.pagina-3-image:hover {
+    transform: scale(1.05); /* Zoom */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9); 
+}
+
+.accordion-button {
+    background-color: #1e2327;
+    color: #f0f0f0;
+}
+
+.accordion-button:focus {
+    box-shadow: none; /* Enfoque */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #405870;
+    color: #ffffff;
+}
+
+.accordion-body {
+    background-color: #2c3e50;
+    color: #ffffff;
+    border-top: 1px solid #405870; /* Borde */
+}
+
+/* Alertas */
+.alert-info {
+    background-color: #405870;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Botones */
+.btn-primary, .btn-secondary {
+    background-color: #405870;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transición */
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    background-color: #1e2327; /* Hover */
+}
