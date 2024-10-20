@@ -61,6 +61,19 @@ body {
     transform: scale(1.05); /* Zoom */
 }
 
+.image-hover {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); 
+}
+
+.image-hover:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+}
+
 /* Pie de página */
 footer {
     background-color: #23272a;
@@ -79,6 +92,8 @@ footer a {
 footer a:hover {
     color: #00bcd4; /* Hover */
 }
+
+
 
 /* Página 1 */
 .pagina-1-image {
